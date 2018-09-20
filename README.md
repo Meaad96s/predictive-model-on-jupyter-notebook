@@ -1,6 +1,4 @@
-# predictive-model-on-jupyter-notebook
-
-## Predict Voice Disorders and Build Bayes Network Model using Jupyter Notebook
+# Predict Voice Disorders and Build Bayes Network Model using Jupyter Notebook
 
 Flow
 
@@ -28,8 +26,9 @@ Flow
 1. Scrol down the page and click on **(+) New project icon**.
 2. Name your project 'Predict loan eligibility'.
 3. Click **Create**.
-4. In your project page, nagivate to the Assests tab, drag the [data set](https://github.com/DevExCodeHub/Loan_eligibility_lab/blob/master/Data/train.csv) file and drop it in the Load sidebar
-Create a project in IBM Watson platform.
+4. In your project page, nagivate to the Assests tab, drag the [data set](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_samples.csv) and (https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_features.csv) files and drop it in the Load sidebar
+
+## Create a project in IBM Watson platform.
 Create a Notebook Jupyter from assets tab..
 Run the notebook in IBM Data Science Experience
 Deploy the saved predictive model as a scoring service
