@@ -56,9 +56,11 @@ The matrix of the targets dataset is 1D so it must be changed to
 `y=np.ravel(df_target)`
 
 **Cross Validation**
-you can take the snippet below
+> you can take the snippet below
 
->from sklearn.cross_validation import train_test_split
+```
+
+from sklearn.cross_validation import train_test_split
 import itertools
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -68,8 +70,9 @@ y_train=np.ravel(y_train)
 from sklearn.model_selection import KFold # import KFold
 kf = KFold(n_splits=10) # Define the split - into 2 folds 
 kf.get_n_splits(X) # returns the number of splitting iterations in the cross-validator
+```
 
-#### So, Now there is each dataset is split to train and test groups.
+#### So,each dataset is split to train and test groups.
 
 ## References
 Watson Studio: Master the art of data science with IBM’s Watson Studio.
