@@ -81,7 +81,13 @@ clf = svm.SVC()
 clf.fit(X_train,y_train )
 y_pred = clf.fit(X_train, y_train).predict(X_test)
 ```
-
+**Model Score**
+View the Accuracy of the model in the course of 10 times of runs.
+```
+from sklearn.cross_validation import cross_val_score, cross_val_predict
+scores = cross_val_score(clf, X, y, cv=10)
+print (scores)
+```
 ## References
 Watson Studio: Master the art of data science with IBM’s Watson Studio.
 
