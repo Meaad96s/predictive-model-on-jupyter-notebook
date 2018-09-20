@@ -31,12 +31,15 @@ Flow
 
 <p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819331-b9c80f80-bcec-11e8-8c9b-81389c55cc4c.png">
   
+
 **Create a Notebook Jupyter from the assets tab.**
 
 Language: Python 3.5 with spark
 Spark version: Spark 2.3
 
-![screenshot 27](https://user-images.githubusercontent.com/20974667/45819333-b9c80f80-bcec-11e8-9ac5-1f961abde16d.png)
+<p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819333-b9c80f80-bcec-11e8-9ac5-1f961abde16d.png">
+
+
 
 
 ![screenshot 28](https://user-images.githubusercontent.com/20974667/45819335-b9c80f80-bcec-11e8-9690-2cc059dc699f.png)
