@@ -56,23 +56,31 @@ The matrix of the targets dataset is 1D so it must be changed to
 `y=np.ravel(df_target)`
 
 **Cross Validation**
-> you can take the snippet below
+Import train and test split from Sklearn for cross validation
+The folds of cross validation for this lab is 10.
 
+> you can take the snippet below
 ```
 
 from sklearn.cross_validation import train_test_split
-import itertools
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix
 X_train, X_test, y_train, y_test = train_test_split(df_data, df_target, test_size=0.33, random_state=42)
 y_train=np.ravel(y_train)
-from sklearn.model_selection import KFold # import KFold
+from sklearn.model_selection import KFold
 kf = KFold(n_splits=10) # Define the split - into 2 folds 
 kf.get_n_splits(X) # returns the number of splitting iterations in the cross-validator
 ```
 
 #### So,each dataset is split to train and test groups.
+
+**Build the Model**
+The machine learning model is Support Vector Machine SVM.
+> The snippet below is how to build a model giving training dataset of samples and tartets as parameters.
+```
+from sklearn import svm
+clf = svm.SVC()
+clf.fit(X_train,y_train )
+y_pred = clf.fit(X_train, y_train).predict(X_test)
+```
 
 ## References
 Watson Studio: Master the art of data science with IBM’s Watson Studio.
