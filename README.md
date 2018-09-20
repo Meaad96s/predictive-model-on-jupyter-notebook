@@ -1,6 +1,6 @@
 # predictive-model-on-jupyter-notebook
 
-##Predict Voice Disorders and Build Bayes Network Model using Jupyter Notebook
+## Predict Voice Disorders and Build Bayes Network Model using Jupyter Notebook
 
 Flow
 
@@ -12,19 +12,30 @@ Flow
 5. Import data to start building the model
 
 
-##Prerequisite:
+## Prerequisite:
 1. Create an IBM Cloud account.
 2. Create an instance of Watson Studio from the catalog.
 
-##How the Model was built:
-The detailed steps and data are foundin this github link README.md.
+## Steps:
+# Login to IBM Cloud and Create Watson Studio Service
+1. Register in [IBM Cloud](https://ibm.biz/BdYmuL).
+2. Go to **Catalog**.
+3. Search for `watson studio`.
+4. Click on the service and then **Create**.
+5. On the service page, click on **Get Started**.
+
+## Create New Project
+1. Scrol down the page and click on **(+) New project icon**.
+2. Name your project 'Predict loan eligibility'.
+3. Click **Create**.
+4. In your project page, nagivate to the Assests tab, drag the [data set](https://github.com/DevExCodeHub/Loan_eligibility_lab/blob/master/Data/train.csv) file and drop it in the Load sidebar
 Create a project in IBM Watson platform.
 Create a Notebook Jupyter from assets tab..
 Run the notebook in IBM Data Science Experience
 Deploy the saved predictive model as a scoring service
 
-##References
+## References
 Watson Studio: Master the art of data science with IBM’s Watson Studio.
 
-##License
+## License
 GNU General Public License v3.0
