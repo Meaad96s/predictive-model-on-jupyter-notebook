@@ -26,7 +26,7 @@ Flow
 1. Scrol down the page and click on **(+) New project icon**.
 2. Name your project 'Predict loan eligibility'.
 3. Click **Create**.
-4. In your project page, nagivate to the Assests tab, drag the [data set samples](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_samples.csv) and [data set targets](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_features.csv) files and drop it in the Load sidebar
+4. In your project page, nagivate to the Assests tab, drag the [samples dataset](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_samples.csv) and [targets dataset](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_features.csv) files and drop it in the Load sidebar
 
 
 <p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819331-b9c80f80-bcec-11e8-8c9b-81389c55cc4c.png">
@@ -46,9 +46,10 @@ Spark version: Spark 2.3
 
 ###
 
-**From the left bar, insert the code to import the data from data asset**
+**From the left bar, insert the code to import the samples data from data asset**
 <p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819336-b9c80f80-bcec-11e8-9562-a12240dbe17a.png">
 
+Then do it again in another Cell to inser the code of importing the features dataset.
 
 
 ## References
