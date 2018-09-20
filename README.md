@@ -28,12 +28,12 @@ Flow
 3. Click **Create**.
 4. In your project page, nagivate to the Assests tab, drag the [data set samples](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_samples.csv) and [data set targets](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_features.csv) files and drop it in the Load sidebar
 
-![screenshot 26](https://user-images.githubusercontent.com/20974667/45819331-b9c80f80-bcec-11e8-8c9b-81389c55cc4c.png)
+<p align="center">![screenshot 26](https://user-images.githubusercontent.com/20974667/45819331-b9c80f80-bcec-11e8-8c9b-81389c55cc4c.png)
 
 
 **Create a Notebook Jupyter from the assets tab.**
 
-Language:Python 3.5 with spark
+Language: Python 3.5 with spark
 Spark version: Spark 2.3
 
 ![screenshot 27](https://user-images.githubusercontent.com/20974667/45819333-b9c80f80-bcec-11e8-9ac5-1f961abde16d.png)
