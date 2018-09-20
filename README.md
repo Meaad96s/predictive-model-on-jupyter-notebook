@@ -47,9 +47,29 @@ Spark version: Spark 2.3
 
 **From the left bar, insert the code to import the samples data from data asset**
 <p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819336-b9c80f80-bcec-11e8-9562-a12240dbe17a.png">
+  
+and change the shape of the dataframe to 
+`X=np.reshape(df_data, (226, 12))` 
 
-Then do it again in another Cell to inser the code of importing the features dataset.
+Then do it again in another Cell to inser the code of importing the targets dataset.
+The matrix of the targets dataset is 1D so it must be changed to
+`y=np.ravel(df_target)`
 
+**Cross Validation**
+you can take the snippet below
+
+>from sklearn.cross_validation import train_test_split
+import itertools
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix
+X_train, X_test, y_train, y_test = train_test_split(df_data, df_target, test_size=0.33, random_state=42)
+y_train=np.ravel(y_train)
+from sklearn.model_selection import KFold # import KFold
+kf = KFold(n_splits=10) # Define the split - into 2 folds 
+kf.get_n_splits(X) # returns the number of splitting iterations in the cross-validator
+
+#### So, Now there is each dataset is split to train and test groups.
 
 ## References
 Watson Studio: Master the art of data science with IBM’s Watson Studio.
