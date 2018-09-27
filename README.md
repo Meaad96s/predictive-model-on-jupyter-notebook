@@ -1,7 +1,7 @@
 # Predict Voice Disorders and Build Bayes Network Model using Jupyter Notebook
 
 Flow
-
+<p align="center"><img width="453" alt="flow" src="https://user-images.githubusercontent.com/20974667/46143420-922ff480-c262-11e8-8504-ba727356f24f.PNG">
 
 1. Create an IBM Watson Studio Workspace.
 2. Create a Jupyter notebook workplace from the Watson Studio asset.
