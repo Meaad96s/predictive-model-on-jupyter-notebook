@@ -1,6 +1,16 @@
 # Predict Voice Disorders and Build Bayes Network Model using Jupyter Notebook
 
-Flow
+##Learning objectives
+The goal of this tutorial is to build machine learning model in Watson Studio™.
+
+## Prerequisite:
+1. Create an IBM Cloud account.
+2. Create an instance of Watson Studio from the catalog.
+
+## Estimated time
+Walking through this tutorial should take about 10 minutes.
+
+## Flow
 <p align="center"><img width="453" alt="flow" src="https://user-images.githubusercontent.com/20974667/46143420-922ff480-c262-11e8-8504-ba727356f24f.PNG">
 
 1. Create an IBM Watson Studio Workspace.
@@ -10,19 +20,15 @@ Flow
 5. Import data to start building the model
 
 
-## Prerequisite:
-1. Create an IBM Cloud account.
-2. Create an instance of Watson Studio from the catalog.
-
-# Steps:
-**Login to IBM Cloud and Create Watson Studio Service**
+## Steps:
+**1- Login to IBM Cloud and Create Watson Studio Service**
 1. Register in [IBM Cloud](https://ibm.biz/BdYmuL).
 2. Go to **Catalog**.
 3. Search for `watson studio`.
 4. Click on the service and then **Create**.
 5. On the service page, click on **Get Started**.
 
-**Create a project in IBM Watson platform.**
+**2- Create a project in IBM Watson platform.**
 1. Scrol down the page and click on **(+) New project icon**.
 2. Name your project 'Predict loan eligibility'.
 3. Click **Create**.
@@ -32,20 +38,20 @@ Flow
 <p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819331-b9c80f80-bcec-11e8-8c9b-81389c55cc4c.png">
   
 
-**Create a Notebook Jupyter from the assets tab.**
+**3- Create a Notebook Jupyter from the assets tab.**
 
 Language: Python 3.5 with spark
 Spark version: Spark 2.3
 
 <p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819333-b9c80f80-bcec-11e8-9ac5-1f961abde16d.png">
 
-**Press the pen icon to edit the notebook**
+**40 Press the pen icon to edit the notebook**
 
 <p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819335-b9c80f80-bcec-11e8-9690-2cc059dc699f.png">
 
 ###
 
-**From the left bar, insert the code to import the samples data from data asset**
+**5- From the left bar, insert the code to import the samples data from data asset**
 <p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819336-b9c80f80-bcec-11e8-9562-a12240dbe17a.png">
   
 and change the shape of the dataframe to 
@@ -55,7 +61,7 @@ Then do it again in another Cell to inser the code of importing the targets data
 The matrix of the targets dataset is 1D so it must be changed to
 `y=np.ravel(df_target)`
 
-**Cross Validation**
+**6- Cross Validation**
 Import train and test split from Sklearn for cross validation
 The folds of cross validation for this lab is 10.
 
@@ -72,7 +78,7 @@ kf.get_n_splits(X) # returns the number of splitting iterations in the cross-val
 
 #### So,each dataset is split to train and test groups.
 
-**Build the Model**
+**7- Build the Model**
 The machine learning model is Support Vector Machine SVM.
 > The snippet below is how to build a model giving training dataset of samples and tartets as parameters.
 ```
@@ -81,7 +87,7 @@ clf = svm.SVC()
 clf.fit(X_train,y_train )
 y_pred = clf.fit(X_train, y_train).predict(X_test)
 ```
-**Model Score**
+**8- Model Score**
 View the Accuracy of the model in the course of 10 times of runs.
 ```
 from sklearn.cross_validation import cross_val_score, cross_val_predict
