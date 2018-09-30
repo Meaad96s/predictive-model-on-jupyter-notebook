@@ -94,6 +94,11 @@ from sklearn.cross_validation import cross_val_score, cross_val_predict
 scores = cross_val_score(clf, X, y, cv=10)
 print (scores)
 ```
+
+## Summary
+The model accuracy shows a high accuracy which result in a reliable predictive model. Picture below evaluate the model score of both training and test recording in accordance to the gamma value of the model.
+
+
 ## References
 Watson Studio: Master the art of data science with IBM’s Watson Studio.
 
