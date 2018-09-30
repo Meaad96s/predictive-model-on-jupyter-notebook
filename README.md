@@ -88,15 +88,22 @@ clf.fit(X_train,y_train )
 y_pred = clf.fit(X_train, y_train).predict(X_test)
 ```
 **8- Model Score**
-View the Accuracy of the model in the course of 10 times of runs.
+View the Accuracy of the model in the course of 10 times of runs using the snippet below.
+
+<p align="center"><img width="368" alt="scores" src="https://user-images.githubusercontent.com/20974667/46256053-f1357980-c4ad-11e8-89f4-faee77d0992d.PNG">
+ 
 ```
 from sklearn.cross_validation import cross_val_score, cross_val_predict
 scores = cross_val_score(clf, X, y, cv=10)
 print (scores)
 ```
 
+
 ## Summary
 The model accuracy shows a high accuracy which result in a reliable predictive model. Picture below evaluate the model score of both training and test recording in accordance to the gamma value of the model.
+
+<p align="center"><img width="241" alt="eva" src="https://user-images.githubusercontent.com/20974667/46256046-e11d9a00-c4ad-11e8-8b5b-9b920e6b4d05.PNG">
+
 
 
 ## References
