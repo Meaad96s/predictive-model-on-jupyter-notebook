@@ -1,7 +1,7 @@
 # Predict Voice Disorders and Build Bayes Network Model using Jupyter Notebook
 
 ## Learning objectives
-The goal of this tutorial is to build machine learning model in Watson Studio™.
+The goal of this tutorial is to build a machine learning model in Watson Studio™.
 
 ## Prerequisite:
 1. Create an IBM Cloud account.
