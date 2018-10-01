@@ -3,6 +3,9 @@
 ## Learning objectives
 The goal of this tutorial is to build a machine learning model in Watson Studio™.
 
+## Introductin
+Disorders attack the vocal cords hence the voice quality changes; these alterations are the symptoms of voice disorder. Therefore, there has been an incrreasing interest in the objective analysis of the voice to detect disorder. Many applications today rely on machine learning to predict the disorder existance and it's classification. But this tutorial will fixate only in predicting if a disorder exists in the voice. The dataset is obtained from _MEEI_.
+
 ## Prerequisite:
 1. Create an IBM Cloud account.
 2. Create an instance of Watson Studio from the catalog.
