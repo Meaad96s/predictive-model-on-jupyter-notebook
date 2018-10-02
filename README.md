@@ -1,10 +1,10 @@
 # Predict Voice Disorders and Build Bayes Network Model using Jupyter Notebook
 
 ## Learning objectives
-The goal of this tutorial is to build a machine learning model in Watson Studio™.
+The goal of this tutorial is to build a machine learning model in Watson Studio™ Jupyter notebook.
 
 ## Introductin
-Disorder attacks the vocal cords hence the voice quality changes; these alterations are the symptoms of voice disorder. Therefore, there has been an incrreasing interest in the objective analysis of the voice to detect disorder. Many applications today rely on machine learning to predict the disorder existance and it's classification. But this tutorial will fixate only in predicting if a disorder exists in the voice. The dataset is obtained from _MEEI_.
+Disorder attacks the vocal cords hence the voice quality changes; these alterations are the symptoms of voice disorder. Therefore, there has been an incrreasing interest in the objective analysis of the voice to detect disorder. Many applications today rely on machine learning to predict the disorder existance and it's classification. But this tutorial will fixate only in predicting if a disorder exists in the voice. The dataset is obtained from _MEEI_ and processed through the voice box making a unified setting of the recordings to help in the prediction.
 
 ## Prerequisite:
 1. Create an IBM Cloud account.
@@ -103,7 +103,7 @@ print (scores)
 
 
 ## Summary
-The model accuracy shows a high accuracy which result in a reliable predictive model. Picture below evaluate the model score of both training and test recording in accordance to the gamma value of the model.
+This tutorial explains how an _automatic speech recognition_ is done and using machine learning techniques.The model accuracy shows a high accuracy which result in a reliable predictive model. Picture below evaluate the model score of both training and test recording in accordance to the gamma value of the model.
 
 <p align="center"><img width="241" alt="eva" src="https://user-images.githubusercontent.com/20974667/46256046-e11d9a00-c4ad-11e8-8b5b-9b920e6b4d05.PNG">
 
