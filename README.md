@@ -1,8 +1,7 @@
 # Predict Voice Disorders and Build Bayes Network Model using Jupyter Notebook
 
 ## Learning objectives
-The goal of this tutorial is to build a machine learning model in Watson Studio™ Jupyter notebook.
-
+The goal of this tutorial is to learn how to build a machine learning model in Watson Studio™ using Jupyter notebook.
 ## Introductin
 Disorder attacks the vocal cords hence the voice quality changes; these alterations are the symptoms of voice disorder. Therefore, there has been an incrreasing interest in the objective analysis of the voice to detect disorder. Many applications today rely on machine learning to predict the disorder existance and it's classification. But this tutorial will fixate only in predicting if a disorder exists in the voice. The dataset is obtained from _MEEI_ and processed through the voice box making a unified setting of the recordings to help in the prediction.
 
@@ -100,7 +99,7 @@ from sklearn.cross_validation import cross_val_score, cross_val_predict
 scores = cross_val_score(clf, X, y, cv=10)
 print (scores)
 ```
-
+These scores can be multipled by 100% to show the percentage of well predicted recordings. The more it is close to 100% the more accuracte the model is.
 
 ## Summary
 This tutorial explains how an _automatic speech recognition_ is done and using machine learning techniques.The model accuracy shows a high accuracy which result in a reliable predictive model. Picture below evaluate the model score of both training and test recording in accordance to the gamma value of the model.
