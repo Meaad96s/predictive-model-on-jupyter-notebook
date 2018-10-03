@@ -102,7 +102,7 @@ print (scores)
 These scores can be multipled by 100% to show the percentage of well predicted recordings. The more it is close to 100% the more accuracte the model is.
 
 ## Summary
-This tutorial explains how an _automatic speech recognition_ is done and using machine learning techniques.The model accuracy shows a high accuracy which result in a reliable predictive model. Picture below evaluate the model score of both training and test recording in accordance to the gamma value of the model.
+This tutorial explains how an _automatic speech recognition_ is done and using machine learning techniques.The model accuracy shows a high accuracy which result in a reliable predictive model. Picture below evaluate the model score of both training and test recording in accordance to the gamma value of the model. The x-axis which represents accuracy score has values from 20% to 100%.
 
 <p align="center"><img width="241" alt="eva" src="https://user-images.githubusercontent.com/20974667/46256046-e11d9a00-c4ad-11e8-8b5b-9b920e6b4d05.PNG">
 
