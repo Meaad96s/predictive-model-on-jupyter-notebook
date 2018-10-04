@@ -109,7 +109,8 @@ This tutorial explains how an _automatic speech recognition_ is done and using m
 
 
 ## References
-Watson Studio: Master the art of data science with IBM’s Watson Studio.
+1. Massachusetts Eye and Ear Infirmary. (1994). Voice Disorders Database. Lincoln Park, NJ: Kay Elemetrics Corp.
+2. Watson Studio: Master the art of data science with IBM’s Watson Studio.
 
 ## License
 GNU General Public License v3.0
