@@ -110,7 +110,7 @@ This tutorial explains how an _automatic speech recognition_ is done and using m
 
 ## References
 1. Massachusetts Eye and Ear Infirmary. (1994). Voice Disorders Database. Lincoln Park, NJ: Kay Elemetrics Corp.
-2.http://www.stimmdatenbank.coli.uni-saarland.de/index.php4#target
+2. http://www.stimmdatenbank.coli.uni-saarland.de/index.php4#target
 3. Watson Studio: Master the art of data science with IBM’s [Watson Studio](https://eu-gb.dataplatform.ibm.com/home?context=analytics).
 
 
