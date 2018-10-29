@@ -3,7 +3,7 @@
 ## Learning objectives
 The goal of this tutorial is to learn how to build a machine learning model in Watson Studio™ using Jupyter notebook.
 ## Introductin
-Disorder attacks the vocal cords hence the voice quality changes; these alterations are the symptoms of voice disorder. Therefore, there has been an incrreasing interest in the objective analysis of the voice to detect disorder. Many applications today rely on machine learning to predict the disorder existance and it's classification. But this tutorial will fixate only in predicting if a disorder exists in the voice. The dataset is obtained from _MEEI_ and processed through the voice box making a unified setting of the recordings to help in the prediction.
+Disorder attacks the vocal cords hence the voice quality changes; these alterations are the symptoms of voice disorder. Therefore, there has been an incrreasing interest in the objective analysis of the voice to detect disorder. Many applications today rely on machine learning to predict the disorder existance and it's classification. But this tutorial will fixate only in predicting if a disorder exists in the voice. The dataset is obtained from _MEEI_ and processed through the voice box making a unified setting of the recordings to help in the prediction. To extract similar datasets please check the refrence below.
 
 ## Prerequisite:
 1. Create an IBM Cloud account.
@@ -34,7 +34,7 @@ Walking through this tutorial should take about 10 minutes.
 1. Scrol down the page and click on **(+) New project icon**.
 2. Name your project 'Predict loan eligibility'.
 3. Click **Create**.
-4. In your project page, nagivate to the Assests tab, drag the [samples dataset](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_samples.csv) and [targets dataset](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_features.csv) files and drop it in the Load sidebar
+4. In your project page, nagivate to the Assests tab, drag the [samples dataset](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_samples.csv) and [targets dataset](https://github.com/Meaad96s/predictive-model-on-jupyter-notebook/blob/master/n_features.csv) files and drop it in the Load sidebar.
 
 
 <p align="center"><img  src="https://user-images.githubusercontent.com/20974667/45819331-b9c80f80-bcec-11e8-8c9b-81389c55cc4c.png">
@@ -110,6 +110,7 @@ This tutorial explains how an _automatic speech recognition_ is done and using m
 
 ## References
 1. Massachusetts Eye and Ear Infirmary. (1994). Voice Disorders Database. Lincoln Park, NJ: Kay Elemetrics Corp.
+2.http://www.stimmdatenbank.coli.uni-saarland.de/index.php4#target
 2. Watson Studio: Master the art of data science with IBM’s [Watson Studio](https://eu-gb.dataplatform.ibm.com/home?context=analytics).
 
 
