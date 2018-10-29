@@ -3,7 +3,7 @@
 ## Learning objectives
 The goal of this tutorial is to learn how to build a machine learning model in Watson Studio™ using Jupyter notebook.
 ## Introductin
-Disorder attacks the vocal cords hence the voice quality changes; these alterations are the symptoms of voice disorder. Therefore, there has been an incrreasing interest in the objective analysis of the voice to detect disorder. Many applications today rely on machine learning to predict the disorder existance and it's classification. But this tutorial will fixate only in predicting if a disorder exists in the voice. The dataset is obtained from _MEEI_ and processed through the voice box making a unified setting of the recordings to help in the prediction. To extract similar datasets please check the refrence below.
+Disorder attacks the vocal cords hence the voice quality changes; these alterations are the symptoms of voice disorder. Therefore, there has been an incrreasing interest in the objective analysis of the voice to detect disorder. Many applications today rely on machine learning to predict the disorder existance and it's classification. But this tutorial will fixate only in predicting if a disorder exists in the voice. The dataset is obtained from _MEEI_ and processed through the voice box making a unified setting of the recordings to help in the prediction. To extract similar datasets please check the refrences below.
 
 ## Prerequisite:
 1. Create an IBM Cloud account.
@@ -111,7 +111,7 @@ This tutorial explains how an _automatic speech recognition_ is done and using m
 ## References
 1. Massachusetts Eye and Ear Infirmary. (1994). Voice Disorders Database. Lincoln Park, NJ: Kay Elemetrics Corp.
 2.http://www.stimmdatenbank.coli.uni-saarland.de/index.php4#target
-2. Watson Studio: Master the art of data science with IBM’s [Watson Studio](https://eu-gb.dataplatform.ibm.com/home?context=analytics).
+3. Watson Studio: Master the art of data science with IBM’s [Watson Studio](https://eu-gb.dataplatform.ibm.com/home?context=analytics).
 
 
 ## License
